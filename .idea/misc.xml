@@ -5,10 +5,13 @@
       <map>
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_new_login.xml" value="0.375" />
         <entry key="app/src/main/res/layout/fragment_ask_permit.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.13134057971014493" />
+        <entry key="app/src/main/res/layout/fragment_modification.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_tenant.xml" value="0.13677811550151975" />
         <entry key="app/src/main/res/layout/fragment_tenant_list.xml" value="0.2905830398423262" />
+        <entry key="app/src/main/res/layout/fragment_tenant_request.xml" value="0.25" />
       </map>
     </option>
   </component>

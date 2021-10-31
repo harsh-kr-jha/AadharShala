@@ -16,4 +16,6 @@
     <string name="tenant">Tenant</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="set_aadhar_address">non_changable_address</string>
+    <string name="tenants_address_full">"real time address of the tenent "</string>
 </resources>

@@ -31,14 +31,28 @@ public class LoginViewModel extends ViewModel {
 
     public void login(String username) {
         // can be launched in a separate asynchronous job
-        Result<LoggedInUser> result = loginRepository.login(username);
+//        Result<LoggedInUser> com.example.aadharshala2.result = loginRepository.login(username);
+//            api call
+//
+//        if (status == 'y'){
+//            askforotp();
+//            if (askforotp();) {
+//           launch new dashboard activity
+//       } else {
+//            loginResult.setValue(new LoginResult(R.string.login_failed));
+//       }
+//        }else
+//        {
+//            print error code
+//        }
 
-        if (result instanceof Result.Success) {
-            LoggedInUser data = ((Result.Success<LoggedInUser>) result).getData();
-            loginResult.setValue(new LoginResult(new LoggedInUserView(data.getDisplayName())));
-        } else {
-            loginResult.setValue(new LoginResult(R.string.login_failed));
-        }
+
+//        if (com.example.aadharshala2.result instanceof Result.Success) {
+//            LoggedInUser data = ((Result.Success<LoggedInUser>) com.example.aadharshala2.result).getData();
+//            loginResult.setValue(new LoginResult(new LoggedInUserView(data.getDisplayName())));
+//        } else {
+//            loginResult.setValue(new LoginResult(R.string.login_failed));
+//        }
     }
 
     public void loginDataChanged(String username) {
@@ -56,9 +70,20 @@ public class LoginViewModel extends ViewModel {
         else return false;
 
     }
-
-    // A placeholder password validation check
-    private boolean isPasswordValid(String password) {
-        return password != null && password.trim().length() > 5;
+    private boolean isOtpValid(){
+//        change fragment to ask for otp view
+//
+//                send otp to api
+//
+//                return status== y;
+//
+//         get token for this aadhar.. from local database..
+//        store it in  final user_token and set boolean login to 1;
+        return  true;
     }
+
+//    // A placeholder password validation check
+//    private boolean isPasswordValid(String password) {
+//        return password != null && password.trim().length() > 5;
+//    }
 }
